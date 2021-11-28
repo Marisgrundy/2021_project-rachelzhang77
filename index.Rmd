@@ -9,12 +9,12 @@ output:
 # Introduction
 
     The surgent growth of gentrification across U.S. cities since the 1970s has received increasing attention from American society. Gentrification has significantly changed — for better or worse — the neighborhood socioeconomic characteristics. Besides, this city redevelopment trend has nearly coincided with the U.S. crime changes in the late 20th century — the crime rates in major U.S. cities increased from the 1960s to 1980s, and they experienced a considerable drop during the 1990s (Barton 2016). Considering the widespread spatial phenomenon and the growing importance of crime occurrences in the United States, it is essential to explore the potential association between these two compelling trends.
-    Due to the inconsistent operationalizations and limited methodological approaches in the fields of gentrification and crime, the few studies on their relationship have drawn conflicting conclusions. Several studies have concluded that there is a positive relationship between gentrification and crime due to the incomplete neighborhood transformation, the disruption of the established social order, or the aggregation of suitable and lucrative targets — the move-in middle-class residents, in gentrifying inner-city neighborhoods (Covington and Taylor 1989). Other scholars have argued that gentrification has accompanied with the decreasing neighborhood crime rates by establishing relatively stable areas with the influx of economically advantaged residents (Barton 2016; MacDonald and Stokes 2020; Papachristos et al. 2011). My research intends to fill the research gaps by examining the overall association between gentrification using a comprehensive gentrification measurement. I also examine the association between specific gentrification mechanisms and crime. Specifically, my study attempts to examine the impact of different degrees and aspects of gentrification on the neighborhood crime rate at the census tract level in Buffalo, NY, by using a modified quantitative measurement of gentrification typology.
+    Due to inconsistent operationalizations and limited methodological approaches in the fields of gentrification and crime, the few studies on their relationship have drawn conflicting conclusions. Several studies have concluded that there is a positive relationship between gentrification and crime due to the incomplete neighborhood transformation, the disruption of the established social order, or the aggregation of suitable and lucrative targets (the move-in middle-class residents), in gentrifying inner-city neighborhoods (Covington and Taylor 1989). Other scholars have argued that gentrification has accompanied decreasing neighborhood crime rates by establishing relatively stable areas with the influx of economically advantaged residents (Barton 2016; MacDonald and Stokes 2020; Papachristos et al. 2011). My research intends to fill the research gaps by examining the overall impact of gentrification using a comprehensive gentrification measurement. I also examine the association between specific gentrification mechanisms and crime. Specifically, my study attempts to examine the impact of different degrees and aspects of gentrification on the neighborhood crime rate at the census tract level in Buffalo, NY, by using a modified quantitative measurement of gentrification typology.
 
 
 # Data and Methods
 
-    The current study examined the association of gentrification and seven (?) forms of violent crime in Buffalo, NY for the period 2011 to 2019 at census tract level. This objective was achieved by utilizing two steps. First, the quantitative operationalization of gentrification and the typology of gentrification degree were based on changes in sociodemographic and socioeconomic characteristics in Buffalo, NY (79 tracts) from 2011 to 2019 American Community Survey 1-year Estimate data. Second, correlation in gentrification and crime over this 9-year period was examined to determine whether the association in Buffalo (79 tracts) was varied over time, which was important given the dynamic nature of gentrification. The Ordinary Least Squares Regression (OLS), controlling between-unit variation, is applied here to examine the association between gentrification and crime.
+    The current study examined the association of gentrification and seven forms of violent crime in Buffalo, NY for the period 2011 to 2019 at census tract level. This objective was achieved through two steps. First, the quantitative operationalization of gentrification and the typology of gentrification degree were determined based on changes in sociodemographic and socioeconomic characteristics in Buffalo, NY (79 tracts) from 2011 to 2019 American Community Survey 1-year Estimate data. Second, correlation in gentrification and crime over this 9-year period was examined to determine whether the association in Buffalo (79 tracts) was varied over time, which was important given the dynamic nature of gentrification. The Ordinary Least Squares Regression (OLS), controlling between-unit variation, is applied here to examine the association between gentrification and crime.
 
 Dependent Variables: Violent Index Crimes
   	For the crime data, I use the open dataset called Crime Incidents by Open Data Buffalo with public access on their official website (data.buffalony.gov), where data is provided by the Buffalo Police Department. This dataset is updated daily and provides the crime incidents in Buffalo at the census tract level from 2009 to 2021.
@@ -22,11 +22,6 @@ Dependent Variables: Violent Index Crimes
 
 Operationalization of Gentrification
     To measure the stages of gentrification, I use a case study of Buffalo, New York with 79 census tracts. Specifically, I use the American Community Survey 1-year estimates from 2011 to 2019. To further evaluate the influence of various gentrification stages, I also conduct a gentrification stage analysis by creating three major gentrification indexes, including the presence of vulnerable populations, gentrification-related demographic changes, and housing condition changes. Moreover, I make use of a neighborhood typology for categorizing the specific stages. These measures are shown in Tables 1 and 2, respectively.
-
-
-
-
-See [http://rmarkdown.rstudio.com/](http://rmarkdown.rstudio.com/) for all the amazing things you can do.
 
 
 Here's my first code chunk.
@@ -558,9 +553,6 @@ gentri_crime_tract_1=gentri_crime_tract_1[complete.cases(gentri_crime_tract_1[,"
         
 ```
 
-
-
-Add any additional processing steps here.
 
 # Results
 
